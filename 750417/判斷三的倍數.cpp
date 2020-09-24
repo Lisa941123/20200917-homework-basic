@@ -4,9 +4,9 @@ int main() {
     int num;
     cout << "輸入一個整數:";
     cin >>num;
-    if (num%3==0)  //0 是任何非零整數的倍數
+    if (num % 3 == 0){
         cout << "這是3的倍數";
-    else
+    } else {
         cout  << "這不是3的倍數";
-
+    }
 }
